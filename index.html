@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Account Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Bank Account Management System</h1>
+
+<div class="account-info" id="account1-info"></div>
+<button onclick="deposit(1, 200)">Deposit $200 to Account 1</button>
+<button onclick="withdraw(1, 100)">Withdraw $100 from Account 1</button>
+<button onclick="checkBalance(1)">Check Balance of Account 1</button>
+
+<div class="account-info" id="account2-info"></div>
+<button onclick="deposit(2, 300)">Deposit $300 to Account 2</button>
+<button onclick="withdraw(2, 200)">Withdraw $200 from Account 2</button>
+<button onclick="checkBalance(2)">Check Balance of Account 2</button>
+
+<button onclick="checkIsActive()">Check if Accounts are Active</button>
+<button onclick="displayTotalBalance()">Display Total Balance</button>
+
+<script src="script.js"></script>
+</body>
+</html>
